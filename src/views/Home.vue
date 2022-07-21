@@ -21,7 +21,7 @@
 import {
   openOFDBaseViewer,
   verifySignature
-} from 'xmlparse_js'
+} from 'parser_x_x.js'
 
 export default {
   name: 'HelloWorld',
