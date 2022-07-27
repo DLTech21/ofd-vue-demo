@@ -292,7 +292,7 @@ export default {
 
     const config = this.getViewerConfiguration()
     let url = this.getQueryVariable('url')
-    config.url = url
+    config.url = '999.ofd'
     let img = new Image();
     img.style.position = 'absolute';
     img.style.left = 0;
