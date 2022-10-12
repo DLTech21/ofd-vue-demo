@@ -1,10 +1,5 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">openOFDBaseViewer</router-link>|
-      <router-link to="/interface">接口渲染</router-link> |
-      <router-link to="/about">openOFDViewer</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
@@ -16,7 +11,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  height: 100%;
+  //height: 100%;
 }
 
 #nav {
