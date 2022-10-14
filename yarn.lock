@@ -3790,10 +3790,15 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@^1.0.0, follow-redirects@^1.10.0, follow-redirects@^1.14.9:
+follow-redirects@^1.0.0, follow-redirects@^1.10.0:
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.1.tgz#0ca6a452306c9b276e4d3127483e29575e207ad5"
   integrity sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==
+
+follow-redirects@^1.14.9:
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
+  integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -5670,18 +5675,26 @@ obuf@^1.0.0, obuf@^1.1.2:
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
   integrity sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==
 
-ofd.js@1.3.11:
-  version "1.3.11"
-  resolved "https://registry.yarnpkg.com/ofd.js/-/ofd.js-1.3.11.tgz#7bead432db555b5e8ec7a28cb22f0aec000670e5"
-  integrity sha512-rTyIYs4rNhNuWa1eQpW/vVvw+5V0J2rIXaK94sLQjpwT9m1MVy8BBRRAs9xhkVWa5rL1yX0fK76dianVFtIMiQ==
+ofd-view@0.1.18:
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/ofd-view/-/ofd-view-0.1.18.tgz#73e886ebba8060475f34e4bb94585c0ea97f8426"
+  integrity sha512-/IoRwKbTMPIoHNm22KvdgwAxT82ehGEej64o6virWo8gYuXUoxpQyLiL2ZGT1T8ssnZfoUHWv4PAc6+NgmwJQA==
+  dependencies:
+    core-js "^3.6.5"
+    vue "^2.6.11"
+
+ofd.js@latest:
+  version "1.3.12"
+  resolved "https://registry.yarnpkg.com/ofd.js/-/ofd.js-1.3.12.tgz#94f6f6fe53b72f524eae1e648e6c7c2e16c1889e"
+  integrity sha512-ozlSuPj4RCwNMjMoTEDLsl+BBd5fBZ94KjpprrAaONEst9c8Ph6j9YExEGMPL781LpBOSvB3Bb6DVfaXVioFiQ==
   dependencies:
     axios "^0.27.2"
-    ofd_parser.js "0.1.21"
+    ofd_parser.js "0.1.22"
 
-ofd_parser.js@0.1.21:
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/ofd_parser.js/-/ofd_parser.js-0.1.21.tgz#d45eb8ba3090de7ebfcabf1a62f50fc309b10714"
-  integrity sha512-MZl1gWN9scnxLRCq35vHo8sT96TdkTTAPL5JqhCpLPIJjNTlR4LFx5zPrG4DCn+4d0c8pDw968B86yPshRYwHQ==
+ofd_parser.js@0.1.22:
+  version "0.1.22"
+  resolved "https://registry.yarnpkg.com/ofd_parser.js/-/ofd_parser.js-0.1.22.tgz#05a2c17faee6130ea5efdbbd70af75929bcca3d5"
+  integrity sha512-L7Qg3mmr5NKknAnIqMFYjG1YznT92NVdHK2bMEQ2X+plMReh+uxfeIakgkiyFAHBYlpiRAFqqjmiP9ZEPTnF6Q==
 
 on-finished@2.4.1:
   version "2.4.1"
