@@ -1,24 +1,20 @@
-# ofd-test
+# ofdview
 
-## Project setup
-```
-yarn install
-```
+## vue使用
 
-### Compiles and hot-reloads for development
+### npm 安装
+
 ```
-yarn serve
+npm i ofd-view -S
 ```
 
-### Compiles and minifies for production
+在 main.js 中写入以下内容：
+
 ```
-yarn build
+import OfdView from "ofd-view";
+import 'ofd-view/lib/viewer.css'
+
+Vue.use(OfdView);
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![示例](https://cdn.jsdelivr.net/npm/ofd-view@0.1.17/img.png)
