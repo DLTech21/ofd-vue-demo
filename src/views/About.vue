@@ -3,7 +3,8 @@
 </template>
 <script>
 import {
-  openOFDViewer
+  openOFDViewer,
+  openOFD
 } from 'ofd.js'
 
 export default {
@@ -21,6 +22,8 @@ export default {
   methods: {
     configCallback(config) {
       openOFDViewer(config)
+      // 打开url方式
+      openOFD('https://gitee.com/ofdrw/ofdrw/raw/master/ofdrw-converter/src/test/resources/999.ofd')
     },
 
   }
