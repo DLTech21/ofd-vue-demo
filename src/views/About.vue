@@ -1,15 +1,11 @@
 <template>
   <div style="height: 100%">
-    <ofd-view @ofdViewReady="ofdViewReady" v-if="isOFD"></ofd-view>
+    <ofd-view :url="ofdUrl" v-if="isOFD"></ofd-view>
     <pdf-view :url="pdfUrl" v-else></pdf-view>
   </div>
 
 </template>
 <script>
-import {
-  openOFDViewer,
-  openOFD
-} from 'ofd.js'
 
 export default {
   data () {
@@ -27,12 +23,6 @@ export default {
   },
 
   methods: {
-    ofdViewReady(config) {
-      openOFDViewer(config)
-      // // 打开url方式
-      openOFD(this.ofdUrl)
-    },
-
   }
 }
 </script>

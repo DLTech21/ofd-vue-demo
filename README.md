@@ -5,7 +5,7 @@
 ### npm 安装
 
 ```
-npm i ofd-view -S
+npm i ofd-view ofd.js -S
 ```
 
 在 main.js 中写入以下内容：
