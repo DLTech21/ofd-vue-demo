@@ -5958,6 +5958,11 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+pdfjs-dist@2.5.207:
+  version "2.5.207"
+  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-2.5.207.tgz#b5e8c19627be64269cd3fb6df3eaaf45ddffe7b6"
+  integrity sha512-xGDUhnCYPfHy+unMXCLCJtlpZaaZ17Ew3WIL0tnSgKFUZXHAPD49GO9xScyszSsQMoutNDgRb+rfBXIaX/lJbw==
+
 performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
@@ -7898,6 +7903,15 @@ vue-loader@^15.9.2:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-pdfjs-view@0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/vue-pdfjs-view/-/vue-pdfjs-view-0.1.3.tgz#d9eabfe9f1252f35a981d8cf4c27085a0506b4e9"
+  integrity sha512-JMcm6rf+5fN458iyBqa50nHg32KiOQjQ4EOffmeuDo6+CVPeN3xU5KxOAvocKrZUMd/XMtcKuR6q394yBnvOQg==
+  dependencies:
+    core-js "^3.6.5"
+    pdfjs-dist "2.5.207"
+    vue "^2.6.11"
 
 vue-router@^3.2.0:
   version "3.5.4"
