@@ -15,7 +15,7 @@ export default {
   data () {
      return {
        isOFD: false,
-       pdfUrl: 'https://gitee.com/ofdrw/ofdrw/raw/master/GBT_33190-2016_%E7%94%B5%E5%AD%90%E6%96%87%E4%BB%B6%E5%AD%98%E5%82%A8%E4%B8%8E%E4%BA%A4%E6%8D%A2%E6%A0%BC%E5%BC%8F%E7%89%88%E5%BC%8F%E6%96%87%E6%A1%A3.pdf',
+       pdfUrl: 'https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf',
        ofdUrl: 'https://gitee.com/ofdrw/ofdrw/raw/master/ofdrw-converter/src/test/resources/999.ofd'
      }
   },
