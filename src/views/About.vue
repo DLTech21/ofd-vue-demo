@@ -1,6 +1,6 @@
 <template>
   <div style="height: 100%">
-    <ofd-view :file="ofdUrl" :mem="mem" v-if="isOFD"></ofd-view>
+    <ofd-view :file="ofdUrl" :mem="mem" :sidebar-force-open="false" :signature-viewer-force-check="true" v-if="isOFD"></ofd-view>
     <pdf-view v-else :url="pdfUrl" :stamps="stamps" @viewready="pdfViewReady"></pdf-view>
   </div>
 
