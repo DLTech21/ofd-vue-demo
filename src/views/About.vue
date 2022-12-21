@@ -4,7 +4,7 @@
               ></ofd-view>
 </template>
 <script>
-const ofdJs = require('parser_x.js')
+const ofdJs = require('ofd.js')
 export default {
   data () {
      return {

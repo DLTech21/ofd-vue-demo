@@ -9,9 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "ofd.js": "1.3.25",
+    "ofd.js": "1.3.33",
     "ofd-view": "0.1.41",
-    "parser_x.js":"^1.0.45",
     "vue": "^2.6.11",
     "vue-pdfjs-view": "0.1.4",
     "vue-router": "^3.2.0",
