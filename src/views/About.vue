@@ -4,14 +4,14 @@
               ></ofd-view>
 </template>
 <script>
-import parser_x from 'parser_x.js'
+
 export default {
   data () {
      return {
        isOFD: true,
        ofdUrl: '999.ofd',
        stamps: [],
-       ofd: parser_x
+       ofd: require('parser_x.js'),
      }
   },
 
