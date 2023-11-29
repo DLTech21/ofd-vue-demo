@@ -11,7 +11,7 @@
     "core-js": "^3.6.5",
     "ofd-view": "0.1.57",
     "vue": "^2.6.11",
-    "parser_x.js": "1.1.6",
+    "parser_x.js": "1.1.14",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0",
     "vue-pdfjs-view": "0.1.27"
