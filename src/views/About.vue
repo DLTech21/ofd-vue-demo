@@ -1,5 +1,6 @@
 <template>
     <ofd-view :file="ofdUrl" :mem="ofd" :stamps="stamps" @viewready="ofdViewReady"
+              @onPrintFinishEvent="onPrintFinishEvent" @onDownloadFinishEvent="onDownloadFinishEvent"  :can-download="true" :can-open="true" :can-print="true"
               ></ofd-view>
 </template>
 <script>
@@ -51,7 +52,13 @@ export default {
         located: true
       })
     },
+    onDownloadFinishEvent() {
+      console.log('onDownloadFinishEvent')
+    },
 
+    onPrintFinishEvent() {
+      console.log('onPrintFinishEvent')
+    }
 
   }
 }
