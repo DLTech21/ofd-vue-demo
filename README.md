@@ -29,6 +29,8 @@ Vue.use(OfdView);
 | canOpen | 是否允许通过按钮打开ofd文件              | 否    |
 | canDownload | 是否允许通过按钮下载ofd文件              | 否    |
 | canPrint | 是否允许通过按钮打印ofd文件              | 否    |
+| onPrintFinishEvent | 通过按钮打印后的回调事件              | 否    |
+| onDownloadFinishEvent | 通过按钮下载后的回调事件              | 否    |
 
 
 
