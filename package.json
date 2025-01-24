@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "ofd-view": "^0.1.57",
+    "ofd-view": "^0.2.16",
     "parser_x.js": "1.1.60",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
