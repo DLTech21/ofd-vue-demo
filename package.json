@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "ofd-view": "^0.2.16",
-    "parser_x.js": "1.1.60",
+    "ofd-view": "0.2.18",
+    "parser_x.js": "1.1.61",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
