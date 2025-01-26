@@ -1,5 +1,5 @@
 <template>
-    <ofd-view :file="ofdUrl" :mem="ofd" :stamps="stamps" @viewready="ofdViewReady"
+    <ofd-view :file="ofdUrl" :mem="ofd" :stamps="stamps" :secret="secret" :digest="digest" @viewready="ofdViewReady"
               @onPrintFinishEvent="onPrintFinishEvent" @onDownloadFinishEvent="onDownloadFinishEvent"  :can-download="true" :can-open="true" :can-print="true"
               ></ofd-view>
 </template>
@@ -12,6 +12,8 @@ export default {
        ofdUrl: '999.ofd',
        stamps: [],
        ofd: require('parser_x.js'),
+       secret: 'hfpRXJX72P83g8LX1740534589123abdc',
+       digest: '87736474a4fffee6aee2d46d76376011'
      }
   },
 
