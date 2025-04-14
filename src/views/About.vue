@@ -12,8 +12,6 @@ export default {
        ofdUrl: '999.ofd',
        stamps: [],
        ofd: require('parser_x.js'),
-       secret: 'hfpRXJX72P83g8LX1740534589123abdc',
-       digest: '87736474a4fffee6aee2d46d76376011'
      }
   },
 
